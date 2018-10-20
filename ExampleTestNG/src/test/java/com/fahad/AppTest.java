@@ -7,29 +7,10 @@ import org.testng.annotations.*;
  */
 public class AppTest {
 
-    @BeforeSuite
-    public void testBeforeSuite() {
-        System.out.println("testBeforeSuite()");
-    }
 
-    @AfterSuite
-    public void testAfterSuite() {
-        System.out.println("testAfterSuite()");
-    }
+    public static void main(String[] args) {
 
-    @Test
-    public void test(){
-        System.out.println("test");
-    }
-
-    @BeforeTest
-    public void testBeforeTest() {
-        System.out.println("testBeforeTest()");
-    }
-
-    @AfterTest
-    public void testAfterTest() {
-        System.out.println("testAfterTest()");
+        System.out.println("Hello");
     }
 
 }
